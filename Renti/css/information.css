@@ -1,0 +1,15 @@
+body.color{
+    background-color: gainsboro;
+}
+h1.text{
+    text-align: center;
+    font-style: normal;
+    font-size: 28pt;
+}
+.format{
+    font-size: 13pt;
+    font-style: initial;
+}
+ul{
+    list-style-type: disc;
+}

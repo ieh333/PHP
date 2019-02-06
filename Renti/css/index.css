@@ -1,0 +1,99 @@
+body{
+	background-color: lightgray;
+}
+section, footer, p, aside, header, h1{
+	padding: 0px;
+	margin: 10px;
+}
+h1.text{
+    text-align: center;
+    font-style: normal;
+    font-size: 28pt;
+}
+.menu ul, .menu li{
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	background-color: lightgray;
+	list-style: none;
+	width: 100%;
+}
+.menu li{
+	float: left;
+	position: relative;
+	width: auto;
+}
+.menu a{
+	background: gray;
+	color: blue;
+	display: block;
+	font-family: Times New Roman;
+	font-size: 20pt;
+	font-weight: bold;
+	padding: 10px 49px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	transition: all .25s ease;
+}
+#top_images{
+	margin: 50px auto;
+	position: relative;
+	width: 960px;
+	height: 200px;
+	padding: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0, 4);
+}
+#top_images > div{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+.main{
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 14pt;
+}
+#vertical_menu{
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 160px;
+    padding: 0px;
+    margin: 0px;
+}
+#vertical_menu ul{
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+#vertical_menu ul li {
+	margin: 0px;
+	padding: 10px;
+}
+#vertical_menu ul li a{
+	font-size: 14pt;
+    display: block;
+    border-bottom: 1px dashed #C39C4E;
+    padding: 5px 0px 2px 4px;
+    text-decoration: none;
+    color: #666666;
+    width:160px;
+}
+#vertical_menu ul li a:hover, #vertical_menu ul li a:focus{
+	color: #000000;
+	background-color: #eeeeee;
+}
+#bottom_image{
+	margin: 50px auto;
+	position: relative;
+	text-align: center;
+	padding: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0, 4);
+}
+

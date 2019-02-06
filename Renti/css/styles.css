@@ -1,0 +1,26 @@
+body.color1{
+    background-color: gainsboro;
+}
+body.color2{
+    background-color: gainsboro;
+}
+body.color3{
+    background-color: gainsboro;
+}
+body.color4{
+    background-color: gainsboro;
+}
+body.color5{
+    background-color: gainsboro;
+}
+h1.text{
+    text-align: center;
+    font-style: normal;
+    font-size: 28pt;
+}
+p{
+    font-size: 13pt;
+}
+ol{
+    list-style-type: lower-alpha;
+}

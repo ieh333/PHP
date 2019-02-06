@@ -1,0 +1,13 @@
+body.color{
+    background-color: gainsboro;
+}
+h1.text{
+    text-align: center;
+    font-style: normal;
+    font-size: 28pt;
+}
+label.text{
+    text-align: center;
+    font-style: normal;
+    font-size: 18pt;
+}

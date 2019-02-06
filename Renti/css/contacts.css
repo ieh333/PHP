@@ -1,0 +1,15 @@
+body.color{
+    background-color: gainsboro;
+}
+h1.center{
+	text-align: center;
+}
+label.text{
+text-decoration-style: solid;
+font-style: italic;
+}
+label.text2{
+text-decoration-style: solid;
+font-weight: bolder;
+}
+
