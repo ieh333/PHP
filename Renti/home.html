@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Форма за избор на различни видове ренти.
+-->
+<html>
+    <head>
+        <title>Видове финансови ренти</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/home.css" />
+    </head>
+    <body class="color">
+        <h1 class="text">Форма за избор на вида на рентата</h1>
+        <div><h2 class="text">Моля изберете вида на рентата</h2></div><br />
+        <form name="select">
+            <label class="text">Вид рента:</label>
+            <select name="type_renta" onchange="window.document.location.href=this.options[this.selectedIndex].value;">
+                <option value="blank" selected>--Моля изберете--</option>
+                <option value="postnumerandna.php">Постнумерандна рента</option>
+                <option value="prenumerandna.php">Пренумерандна рента</option>
+                <option value="rent_period.php">Определяне на срока на рентата</option>
+                <option value="p_term.php">P-срочна рента</option>
+                <option value="annuity.php">Рента с период по-голям от 1 година</option>
+            </select>
+        </form>
+    </body>
+</html>
