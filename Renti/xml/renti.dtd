@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/renti.dtd
+
+-->
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT renti (renta)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT renta (description|name)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>
