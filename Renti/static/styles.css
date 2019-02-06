@@ -1,0 +1,559 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #fff;
+	background: url(images/bg.png) #272D38;
+}
+
+#main {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#header {
+	height: 100px;
+}
+
+/*logo*/
+
+#logo {
+	float: left;
+	padding: 20px 0px 0px 26px;
+	width: 500px;
+}
+
+#logo a {
+	text-decoration: none;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.logo_span{
+	font-size:30px;
+}
+
+p.error {
+color:red;
+margin:auto;
+text-align: center;
+}
+
+p.result {
+display: block;
+border-style:dashed;
+border-width:2px;
+border-color:white;
+float: center;
+width: auto;
+!height: 40px;
+padding-top: 12px;
+padding-bottom: 12px;
+!background: blue;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+color: red !important;
+text-decoration: none !important;
+}
+
+h5{
+	display: block;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	padding: 0 0 15px 10px;
+	width: auto;
+	text-align: center;
+}
+
+
+.header_imgs{
+	float: right;
+	width: 400px;
+	padding-top: 40px;
+}
+
+.header_img{
+	float: right;
+	padding-right: 7px;
+}
+
+/*top*/
+
+.top{
+	background: url(images/top_bg.png);
+	padding: 14px 0px;
+}
+
+
+.top_img {
+	width: 974px;
+	height: 263px;
+	margin: 0 auto;
+	background: url(images/top_img.jpg) center top no-repeat;
+}
+
+
+
+.bp_all_bg{
+	height: 44px;
+	text-align: center;
+	margin: 0 auto;
+}
+	
+.bp_all{
+	height: 14px;
+	width: 130px;
+	text-align: center;
+	padding-top: 12px;
+	margin: 0 auto;
+}
+
+.bp{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 14px;
+	background: url(images/bp.png);
+}
+.bp:hover{
+	background: url(images/bp_hover.png);
+}
+.bp_div{
+	float: left;
+	width: 8px;
+	height: 10px;
+}
+
+/*menu*/
+#buttons{
+	text-align:center;
+	width: 980px;
+	height: 78px;
+	margin-left: 0px;
+	padding: 20px 0px 0px 20px;
+	background: url(images/buttons.gif) left top no-repeat;
+}
+
+#buttons a {
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	width: 188px;
+	height: 33px;
+	font-weight: normal;
+}
+
+#buttons a:hover {
+	display: block;
+	float: left;
+	text-decoration: underline;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+/*content*/
+#content{
+	padding: 0px 0 0 0;
+	background: url(images/content_bg.png) right repeat-y;
+}
+
+#content_top{
+	background: url(images/content_bg_line.gif) right top no-repeat;
+}
+
+#content_bott{
+	background: url(images/content_bg_line.gif)  right bottom no-repeat;
+}
+
+#left{
+	float:left;
+	width: 276px;
+	padding-top: 15px;}
+	
+.left_title{
+	background: url(images/left_title.gif) left top no-repeat;
+	width: 276px;
+	height: 45px;
+	padding: 15px 0 0 0;
+	text-align: center;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+.left_ul{
+	padding: 15px 0 20px 33px;
+	list-style: none;
+}
+
+.left_ul li{
+	background: url(images/left_ul.gif) left bottom no-repeat;
+	padding: 8px 0 8px 19px;}
+
+.left_ul li a{
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+.left_ul li a:hover{
+	color: #6CC6FF;
+	text-decoration: none;
+}
+
+
+.left_ul2{
+	padding: 15px 0 20px 33px;
+	list-style: none;
+}
+
+.left_ul2 li{
+	background: url(images/left_ul2.gif) left bottom no-repeat;
+	padding: 8px 0 8px 19px;}
+
+.left_ul2 li a{
+	font-weight: bold;
+	color: #6CC6FF;
+	text-decoration: none;
+}
+.left_ul2 li a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#right{
+	float: right;
+	width: 676px;
+	margin: 23px 20px 18px 0;
+}
+
+#right_row1{
+	height: 150px;
+}
+
+.right_box{
+	float: left;
+	background: url(images/right_box.png) left top no-repeat;
+	width: 205px;
+	padding: 0px 0 0 0;
+}
+
+.right_box_img{
+	float:left; 
+	padding-right: 15px;
+}
+
+h4{
+	display:block;
+	padding: 0 0 10px 0;
+	text-align: center;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+.read_more{
+	text-align: right;
+	padding: 8px 0px 0px 0px;
+	height: 18px;
+}
+
+.read_more a {
+	display: block;
+	float:right;
+	width: 75px;
+	height: 21px;
+	padding-top: 2px;
+	background: url(images/read_more.gif) left top no-repeat;
+	font-size: 12px;
+	text-align: center;
+	color: #fff !important;
+	text-decoration: none !important;
+	
+}
+
+.read_more a:hover {
+	font-size:12px;
+	color:#fff;
+	text-decoration: underline !important;
+}
+
+.div_line{
+	background: url(images/div_line.gif) top repeat-x;
+	height: 20px;
+}
+
+#right_row2{
+	background:url(images/right_row2.gif) 415px repeat-y;
+}
+
+#right_row2_left{
+	float: left;
+	width: 390px;
+}
+
+#right_row2_right{
+	float: right;
+	width: 233px;
+}
+
+
+
+.phot{
+	float: left;
+	padding: 0 20px 0 0px;
+}
+
+.span_lh{
+	line-height: 20px;
+}
+
+.span_data{
+	text-decoration: underline;
+	line-height: 25px;
+}
+
+/*bottom*/
+#bottom{
+	background: url(images/div_line.gif) 0px 45px repeat-x;
+}
+
+h1{
+	padding: 0 0 15px 0;
+	text-align: center;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+
+}
+
+#bottom a{
+	color: #FFFFFF;
+}
+.bottom_box{
+	padding-top: 15px;
+}
+
+
+.bottom_box1{
+	float: left;
+	width: 247px;
+	margin-left: 20px;
+}
+
+.bottom_tit{
+	background: url(images/bottom_tit.png) center top no-repeat;
+	padding: 20px 0 20px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.bottom_box_razd{
+	float: left;
+	background: url(images/bottom_box_razd.jpg) center 28px no-repeat;
+	width: 100px;
+	height: 370px;
+}
+
+.bottom_box2{
+	float: left;
+	width: 105px;
+	margin-left: 90px;
+}
+
+.bottom_ul{
+	padding: 5px 0 0 0;
+	list-style: none;
+}
+
+.bottom_ul li{
+	background: url(images/bottom_ul.gif) left 4px no-repeat;
+	padding: 0px 0 6px 19px;}
+
+.bottom_ul li a{
+	color: #262626;
+	text-decoration: none;
+}
+.bottom_ul li a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.bottom_box3{
+	float: left;
+	width: 165px;
+	margin-left: 56px;
+}
+
+.bottom_box3_text{
+	padding-top: 10px;
+}	
+	
+.bottom_box3_link{
+	padding: 0px 0 15px 30px;
+}
+
+.bottom_box3_link a{
+	text-decoration: none;
+}
+
+.bottom_box3_link a:hover{
+	text-decoration: underline;
+}
+	
+.bottom_box3_link1{
+background:url(images/bottom_fish1.png) top left no-repeat;
+}
+.bottom_box3_link2{
+background:url(images/bottom_fish2.png) top left no-repeat;
+}
+.bottom_box3_link3{
+background:url(images/bottom_fish3.png) top left no-repeat;
+}
+.bottom_box3_link4{
+background:url(images/bottom_fish4.png) top left no-repeat;
+}	
+	
+.bottom_box4{
+	float: left;
+	width: 223px;
+	margin-left: 49px;
+}
+	
+.contact_text{
+	line-height: 24px;}
+
+.contact_a{
+	font-size: 12px;
+	text-decoration: none;
+}
+.contact_a:hover{
+	text-decoration: underline;
+}
+
+/*footer*/
+
+#footer{
+	background: url(images/div_line.gif) top repeat-x;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	height: 60px;
+	padding: 25px 0px 0px 30px;
+}
+
+#footer a{
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #fff;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(images/top_img.jpg) no-repeat;
+    width: 974px;
+    height: 263px;
+    margin:0 auto;
+}
+
+#slider {
+	position:relative;
+    width: 974px;
+    height: 263px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left: 440px;
+	bottom:-42px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bp.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active, .nivo-controlNav a:hover	 {
+	background:url(images/bp_hover.png) no-repeat;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+
+
+
