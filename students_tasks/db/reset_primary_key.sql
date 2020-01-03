@@ -1,0 +1,1 @@
+ALTER TABLE students AUTO_INCREMENT=1;

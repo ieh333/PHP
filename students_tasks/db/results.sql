@@ -1,0 +1,1 @@
+SELECT students.FN, students.First_name, students.Last_name, students.Email, tasks.Uslovie FROM students, tasks WHERE students.Id_task=tasks.Task_id; 

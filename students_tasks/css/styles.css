@@ -1,0 +1,76 @@
+h1, h2 {
+    text-align: center;
+}
+
+.home, .students, .tasks {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 14pt;
+}
+
+#fac_number, #fname, #lname, #email {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#uslovie {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#submit, #reset, #show {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+#reset:hover {
+    background-color: #45a049;
+}
+
+#show:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    font-size: 14pt;
+}
+
+.results {
+    width: 100%;
+    background-color: rgb(189, 245, 226);
+}
+
+.task_student{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task_student, th {
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+}
